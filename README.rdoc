@@ -25,10 +25,10 @@
 	The FMS Admin tool lists the databases and the users connected but fails to list the disk usage.
 
 == Requirements
-    MediaWiki 
-    PHP
-    Composer
-	php-wfio (https://github.com/kenjiuno/php-wfio)
+ MediaWiki 
+ PHP
+ Composer
+ php-wfio (https://github.com/kenjiuno/php-wfio)
 
 == Run It
 	Update config.ini and run updatepage.php
