@@ -14,7 +14,7 @@
 
 
 == Neo Code WikiBot
-	Goal - get a grip on the disk size of your FileMaker Server users databases AND external container folders.
+	Goal - get a grip on the disk size of your FileMaker Server users databases AND external container folders AND backups.
 
 == 	Process
 	Wikibot creates a wiki page that is updated to display a listing of sub-directories and the folder size.
@@ -34,14 +34,14 @@
 	Update config.ini and run updatepage.php
 
 == Example
-===C:\Program Files\FileMaker\FileMaker Server\Data\Databases (32.24GB, incl. Backup: 225.03GB)[edit]
-==== RC_Cache_FMS (0.00B)[edit]
+===C:\Program Files\FileMaker\FileMaker Server\Data\Databases (32.24GB, incl. Backup: 225.03GB)
+==== RC_Cache_FMS (0.00B)
   DE4FD70A-1A60-6E43-B2AC-E97600141F7C (0.00B)
-==== RC_StreamingCache_FMS (0.00B)[edit]
+==== RC_StreamingCache_FMS (0.00B)
   DE4FD70A-1A60-6E43-B2AC-E97600141F7C (0.00B)
-==== Removed_by_FMS (6.62GB)[edit]
+==== Removed_by_FMS (6.62GB)
   Removed (6.62GB)
-==== Sample (1.92MB)[edit]
+==== Sample (1.92MB)
   FMServer_Sample.fmp12 (1.81MB)
   User and Group Settings.fmp12 (112.00kB)
   RC_Data_FMS (0.00B)
