@@ -1,0 +1,114 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5982c48539aff97273a7d89503f51d7e",
+    "packages": [
+        {
+            "name": "hamstar/wikimate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hamstar/Wikimate.git",
+                "reference": "9de44eb460c922b84f540ecda90917d85200edc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hamstar/Wikimate/zipball/9de44eb460c922b84f540ecda90917d85200edc8",
+                "reference": "9de44eb460c922b84f540ecda90917d85200edc8",
+                "shasum": ""
+            },
+            "require": {
+                "rmccue/requests": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Wikimate.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert McLeod",
+                    "email": "hamstar@telescum.co.nz",
+                    "homepage": "https://github.com/hamstar"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/hamstar/Wikimate/graphs/contributors"
+                }
+            ],
+            "description": "Wikimate is a wrapper for the MediaWiki API that aims to be very easy to use.",
+            "homepage": "https://github.com/hamstar/Wikimate",
+            "support": {
+                "source": "https://github.com/hamstar/Wikimate/tree/master",
+                "issues": "https://github.com/hamstar/Wikimate/issues"
+            },
+            "time": "2014-06-24 17:39:49"
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "time": "2014-05-18 04:59:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "hamstar/wikimate": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

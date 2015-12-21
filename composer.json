@@ -1,0 +1,13 @@
+{
+    "name": "pil/wikibot",
+    "minimum-stability": "dev",
+    "require": {
+		"hamstar/wikimate": "dev-master"
+	},
+	"repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/hamstar/Wikimate.git"
+    }
+  ]
+}
