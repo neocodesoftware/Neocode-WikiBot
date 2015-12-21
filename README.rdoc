@@ -35,13 +35,13 @@
 
 == Example
 ===C:\Program Files\FileMaker\FileMaker Server\Data\Databases (32.24GB, incl. Backup: 225.03GB)[edit]
- RC_Cache_FMS (0.00B)[edit]
+==== RC_Cache_FMS (0.00B)[edit]
   DE4FD70A-1A60-6E43-B2AC-E97600141F7C (0.00B)
- RC_StreamingCache_FMS (0.00B)[edit]
+==== RC_StreamingCache_FMS (0.00B)[edit]
   DE4FD70A-1A60-6E43-B2AC-E97600141F7C (0.00B)
- Removed_by_FMS (6.62GB)[edit]
+==== Removed_by_FMS (6.62GB)[edit]
   Removed (6.62GB)
- Sample (1.92MB)[edit]
+==== Sample (1.92MB)[edit]
   FMServer_Sample.fmp12 (1.81MB)
   User and Group Settings.fmp12 (112.00kB)
   RC_Data_FMS (0.00B)
